@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="header">
+      <div class="nav">
+        <div class="name">
+          <span class="red">D</span>-Co<span class="red">d</span>e
+        </div>
+        <div class="navItem">
+          <i
+            class="fa fa-times"
+            id="remove"
+            onclick="handleRemoveSidebar()"
+          ></i>
+
+          <ul>
+            <li onclick="remove()"><a href="#home">Home</a></li>
+            <li onclick="remove()"><a href="#project">Project</a></li>
+            <li onclick="remove()"><a href="#about">About</a></li>
+            <li onclick="remove()"><a href="#service">Service</a></li>
+            <li onclick="remove()"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" id="add" onclick="handleShowSidebar()"></i>
+      </div>
+    </div>
+    <!-- Home -->
+    <div class="home" id="home">
+      <div class="homeContainer">
+        <div class="homeItem">
+          <h1>Hello, <span>I'm</span></h1>
+          <h2>OKUNOWO DAVID</h2>
+          <h3>Frontend Developer</h3>
+        </div>
+
+        <a class="project1" href="#project"> PROJECT </a>
+      </div>
+      <div class="imageScale">
+        <img src="image/img.jpg" />
+      </div>
+    </div>
+    <!-- Service -->
+    <div class="service" id="service">
+      <div class="serviceContainer">
+        <span> SERV<span class="red">I</span>CE </span>
+        <hr />
+        <div class="context">
+          I provide all sort of services that deals with creating websites and
+          web appli/cations using my skill and knowledge of HTML CSS and JS. I
+          tend to deliver the best service to my customers here's a link to my
+          github profile
+          <a
+            href="https://github.com/AY0OLA"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Click here</a
+          >
+        </div>
+        <div class="serviceUs">
+          <div class="serviceItem">
+            <img
+              src="	https://img.icons8.com/nolan/64/html-filetype.png"
+              alt=""
+            />
+            <h2>HTML</h2>
+            <p>
+              With Codes handling your HTML you have absolutely nothing to worry
+              about we deliver the sites and Applications
+            </p>
+          </div>
+          <div class="serviceItem">
+            <img
+              src="		https://img.icons8.com/nolan/64/css-filetype.png"
+              alt=""
+            />
+            <h2>CSS</h2>
+            <p>
+              Best styling you've ever seen. Our styling is compared to none
+              work with us and get a fully responsive website compared to none
+              for yourself.
+            </p>
+          </div>
+          <div class="serviceItem">
+            <img
+              src="		https://img.icons8.com/nolan/64/js.png
+"
+              alt=""
+            />
+            <h2>JAVASCRIPT</h2>
+            <p>
+              Swift work with backend we are ready to work with any API and
+              still deliver the best for our customers all our apps works well
+              with APIS
+            </p>
+          </div>
+          <div class="serviceItem">
+            <img
+              src="https://img.icons8.com/nolan/64/react-native.png"
+              alt=""
+            />
+            <h2>REACT JS</h2>
+            <p>
+              Best web apps you've ever seen fully responsive and one time
+              click. All our web apps supports smooth scrolling and are
+              responsive on all devices
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <div class="about" id="about">
+      <span> About <span class="red">me</span> </span>
+      <hr />
+      <div class="aboutContainer">
+        <div class="image">
+          <img src="image/img.jpg" />
+        </div>
+
+        <div class="content">
+          Hello there! My name is Okunow David, I am a gradute of Bowen
+          University where I studied Accounting. I discover my interest in tech
+          during my final year , which have being work toward since then. I'm
+          currently a frontend developer, I develop my sites and apps with HTML,
+          CSS, JS and REACT JS. I have worked on many projects, I developed lot
+          of web applications and fully responsive websites. Here's a link to my
+          github account
+          <a
+            href="https://github.com/AY0OLA"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Click here</a
+          >
+          <div class="link">
+            <a
+              href="https://www.linkedin.com/in/okunowo-david-898248231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LINKEDIN
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project -->
+    <div class="project" id="project">
+      <span class="span"> RECENT <span class="red">PROJECT</span> </span>
+      <hr />
+      <div class="projectBox">
+        <div class="projectItem">
+          <div class="text">
+            <span class="heading">Cleaning Project</span>
+            <span class="head">Cleanzer</span>
+            <span class="texts">
+              This is a websit build for Cleanzer Where you can see the services
+              they render and get in touch with them.
+              <a
+                href="https://cleaningproject.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Click here.</a
+              >
+            </span>
+          </div>
+          <div class="image">
+            <img src="image/backer.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="projectItem invert">
+          <div class="text">
+            <span class="heading">Fashion Store</span>
+            <span class="head">D-collection</span>
+            <span class="texts">
+              This is a websit build for Cleanzer Where you can see the services
+              they render and get in touch with them.
+              <a
+                href="https://dcollection.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Click here.</a
+              >
+            </span>
+          </div>
+          <div class="image">
+            <img src="image/project2.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="projectItem">
+          <div class="text">
+            <span class="heading">Movie Box</span>
+            <span class="head">MovieBox</span>
+            <span class="texts">
+              This was build to allow user to search for there favourite movies
+              or movie that interest them.
+              <a
+                href="https://movieproject-beta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here.
+              </a>
+            </span>
+          </div>
+          <div class="image">
+            <img src="image/Movie.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <span> contact <span class="red">info</span> </span>
+      <hr />
+      <div class="contactInfo">
+        <div class="contactItem">
+          <!-- <FaLinkedin class="icon blue" /> -->
+          <a
+            href="https://www.linkedin.com/in/okunowo-david-898248231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Okunowo David
+          </a>
+        </div>
+        <div class="contactItem">
+          <!-- <FaXTwitter class="icon" /> -->
+          <a
+            href="https://x.com/ayooladav?s=08"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @ayooladav
+          </a>
+        </div>
+        <div class="contactItem">
+          <!-- <FaWhatsapp class="icon green" /> -->
+          <a
+            href="https://wa.me/qr/O6EEC64B4FVHP1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            +234-815-636-7170
+          </a>
+        </div>
+        <div class="contactItem">
+          <!-- <FaInstagram class="icon red" /> -->
+          <a
+            href="https://www.instagram.com/_a.y.o.o.l.a_?utm_source=qr&igsh=MXM1YWtoZTRzYXgyOQ=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            _a.y.o.o.l.a_
+          </a>
+        </div>
+        <div class="contactItem">
+          <!-- <MdOutlineMailOutline class="icon red" /> -->
+          <a
+            href="https://mail.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ayoolaokunowo@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="style.js"></script>
+  </body>
+</html>
